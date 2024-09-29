@@ -12,5 +12,10 @@ pipeline{
                 sh 'echo test'
             }
         }
+        stage('ls command'){
+            steps{
+                sh 'ls'
+            }
+        }
     }
 }
