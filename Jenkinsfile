@@ -12,10 +12,5 @@ pipeline{
                 sh 'echo test'
             }
         }
-        stage('pwd command'){
-            steps{
-                sh "pwd"
-            }
-        }
     }
 }
